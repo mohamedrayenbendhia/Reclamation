@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>greclamation</class>
+ <widget class="QWidget" name="greclamation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>811</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>Ajouter reclamation</string>
+    </attribute>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>10</y>
+       <width>531</width>
+       <height>466</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>ID:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_12"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_25">
+        <property name="text">
+         <string>Nom client</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_13"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_26">
+        <property name="text">
+         <string>Prenom client</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_14"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_27">
+        <property name="text">
+         <string>Email client</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_15"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_28">
+        <property name="text">
+         <string>Sujet reclamation</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_16"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_29">
+        <property name="text">
+         <string>Message de reclamation</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="text">
+         <string>Ajouter reclamation</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="text">
+         <string>Fermer</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>Modifier et supprimer reclamation</string>
+    </attribute>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>551</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_18">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_14">
+        <item>
+         <widget class="QLabel" name="label_30">
+          <property name="text">
+           <string>ID:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_2"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_34">
+          <property name="text">
+           <string>Sujet reclamation</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_21"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_35">
+          <property name="text">
+           <string>Message de reclamation</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="text">
+         <string>Modifier reclamation</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="text">
+         <string>Supprimer reclamation</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="text">
+         <string>Fermer</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_9">
+    <attribute name="title">
+     <string>Afficher Reclamation</string>
+    </attribute>
+    <widget class="QWidget" name="layoutWidget_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>771</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_17">
+      <item>
+       <widget class="QTableView" name="tablereclamation">
+        <property name="maximumSize">
+         <size>
+          <width>769</width>
+          <height>407</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Calligraphy</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-size: 20px;</string>
+        </property>
+        <attribute name="horizontalHeaderMinimumSectionSize">
+         <number>150</number>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>400</number>
+        </attribute>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="font">
+         <font>
+          <family>Lucida Calligraphy</family>
+          <pointsize>20</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Fermer</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton_18">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>10</y>
+       <width>191</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>273</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QLabel" name="label_31">
+        <property name="text">
+         <string>Tri par nom:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_14">
+        <property name="text">
+         <string>ASC</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_15">
+        <property name="text">
+         <string>DESC</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>256</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QLabel" name="label_32">
+        <property name="text">
+         <string>Tri par ID</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_16">
+        <property name="text">
+         <string>ASC</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_17">
+        <property name="text">
+         <string>DESC</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_10">
+    <attribute name="title">
+     <string>Rechercher reclamation</string>
+    </attribute>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>25</y>
+       <width>661</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_19">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_16">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_15">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <widget class="QLabel" name="label_36">
+              <property name="text">
+               <string>ID:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_r"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="text">
+             <string>rechercher</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTableView" name="tableView_r"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_20">
+          <property name="text">
+           <string>Traiter reclamation</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_19">
+        <property name="text">
+         <string>FERMER</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
